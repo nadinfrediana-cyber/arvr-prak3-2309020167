@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Praktikum AVR - Pertemuan 3</title>
+<style>
+  body { margin: 0; overflow: hidden; font-family: sans-serif; }
+  #log { position: fixed; top: 8px; left: 8px; right: 8px; color: #222;
+         font-size: 13px; pointer-events: none; text-shadow: 0 0 4px #fff; }
+</style>
+<script type='importmap'>
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<div id='log'>WASD = jalan | Shift = lari | Q/E = turun/naik | Klik objek = ganti warna + bentuk</div>
+<script type='module' src='main.js'></script>
+</body>
+</html>
